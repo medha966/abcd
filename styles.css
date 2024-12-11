@@ -1,0 +1,156 @@
+* Type Selector for h2 */
+h2 {
+    font-size: 2em;          /* Larger font size for headings */
+    color: rgb(0, 0, 0);             /* Navy color for the text */
+    border-bottom: 2px solid #ccc; /* Underline effect */
+    margin-bottom: 10px;     /* Space below the heading */
+}
+
+/* Type Selector for h3 */
+h3 {
+    font-size: 1.5em;         /* Medium font size for sub-headings */
+    color: rgb(249, 198, 241);         /* Dark green color for the text */
+    margin-bottom: 8px;       /* Space below the sub-heading */
+}
+
+/* Type Selector for hr (horizontal rule) */
+hr {
+    border: 0;               /* Remove default border */
+    height: 1px;             /* Set height of the line */
+    background-color: #ccc;  /* Light gray background color */
+    margin: 20px 0;          /* Space above and below the line */
+}
+
+/* Type Selector for p */
+p {
+    font-size: 1em;          /* Normal font size for paragraphs */
+    line-height: 1.5;        /* Increased line height for readability */
+    color: #333333;             /* Dark gray text color */
+    margin: 10px 0;          /* Space above and below the paragraph */
+}
+
+/* Class Selector for div */
+.container {
+    width: 80%;              /* Set width of the container */
+    margin: 0 auto;         /* Center the container */
+    padding: 20px;          /* Padding inside the container */
+    background-color: #ffacd7; /* Light gray background */
+    border-radius: 8px;     /* Rounded corners */
+}
+
+/* ID Selector for span */
+#highlight {
+    background-color: rgb(0, 0, 0); /* Yellow background to highlight text */
+    font-weight: bold;        /* Bold text */
+}
+
+/* Attribute Selector for time */
+time[datetime] {
+    font-style: italic;       /* Italicize datetime */
+    color: gray;              /* Gray color for datetime */
+}
+
+/* Pseudo-class Selector for img */
+img:hover {
+    transform: scale(1.1);    /* Enlarge image on hover */
+    transition: transform 0.3s; /* Smooth transition effect */
+}
+
+/* Pseudo-class Selector for a (links) */
+a {
+    color: rgb(0, 0, 0);              /* Default blue color for links */
+    text-decoration: none;    /* Remove underline from links */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: rgb(0, 229, 255);         /* Change color on hover */
+}
+.nav-menu {
+    display: flex; /* Arrange items in a row */
+    list-style: none; /* Remove default bullet points */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    justify-content: center; /* Center the items horizontally */
+}
+
+.nav-menu li {
+    margin: 0 15px; /* Add horizontal spacing between links */
+}
+
+.nav-menu a {
+    text-decoration: none; /* Remove underline from links */
+    color: black; /* Set link color */
+    font-size: 16px; /* Adjust text size */
+}
+
+.nav-menu a:hover {
+    color: rgb(155, 209, 234); /* Change link color on hover */
+}
+body {
+    background-color: #f0f8ff; /* Light blue background */
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+
+    /* Background Image Settings */
+    background-image: url(''); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+    background-attachment: fixed; /* Keeps the image fixed during scroll */
+    background-position: center; /* Centers the image */
+}
+
+
+header {
+    background-color: #e7d6bf; /* Navy blue header */
+    color: white;
+    padding: 10px 20px;
+}
+
+main {
+    background-color: #da92af; /* White background for the main section */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px; /* Optional */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Shadow for depth */
+}
+
+footer {
+    background-color: #d4ba9a; /* Matching footer with the header */
+    color: rgb(235, 40, 40);
+    text-align: center;
+    padding: 10px;
+}
+.dialog-message {
+    border: 2px solid rgb(0, 0, 0); /* Black border */
+    padding: 10px 15px; /* Space inside the border */
+    border-radius: 10px; /* Rounded corners for a dialog look */
+    background-color: #f1b2cd; /* Light background for contrast */
+    width: fit-content; /* Adjust width to fit the text */
+    box-shadow: 2px 2px 6px rgba(215, 102, 102, 0.2); /* Optional: Shadow for depth */
+    font-family: Georgia, serif; /* Optional: A clean font */
+}
+body {
+    background-color: #f4cfe5; /* Choose your desired color */
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif, serif;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+
+    /* Background Image Settings */
+    background-image: url('FLOWERR.jpeg'); /* Replace with your image path */
+    background-size: cover; /* Ensures the image covers the entire page */
+    background-repeat: no-repeat; /* Prevents repeating the image */
+    background-attachment: fixed; /* Keeps the image fixed during scroll */
+    background-position: center; /* Centers the image */
+}
